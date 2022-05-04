@@ -1,0 +1,7 @@
+DELIMITER $$
+CREATE OR REPLACE PROCEDURE Del_Setor(IN p_id int)
+BEGIN 
+DELETE FROM produtos WHERE setorId = p_id;
+DELETE FROM setores WHERE setorId = p_id;
+END $$
+DELIMITER ;
