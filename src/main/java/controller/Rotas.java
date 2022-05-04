@@ -59,7 +59,7 @@ public class Rotas extends HttpServlet {
 
 	protected void setores(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-	response.sendRedirect("setores.jsp");
-}
+		response.sendRedirect("setores.jsp");
+	}
 
 }
